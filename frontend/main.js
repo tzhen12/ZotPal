@@ -1,7 +1,12 @@
 
-const viewCLassesText = document.querySelector('.view-class');
-const viewClasses = document.querySelector("example");
-const btn = document.querySelector('.btn');
-//btn.addEventListener('click', function()) {
-//    viewClass.classList.toggle('example');
-//}
+let level = 1;
+const button = document.getElementById('level-up');
+const display = document.getElementById('level'); 
+
+button.addEventListener('click', levelUp);
+
+function levelUp() {
+    level++;
+    display.innerHTML = level;
+    }
+
