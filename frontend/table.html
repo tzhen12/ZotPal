@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link type="text/css" rel="stylesheet" href="style.css"> -->
     <!-- <script src="script.js"></script> -->
+        <script src="course.js"></script>
         <link rel "stylesheet" href=" styles.css"
     <title>ZOTPAL!!</title>
 </head>
-<h1 id="Course">Enter Your Courses!</h1>
-<div>
+<body>
+    <h1 id="Course">Enter Your Courses!</h1>
     <div>
-        <label for="EnterCourses" class = "form-label">Enter Courses</label>
-        <input id="EnterCourses" type="text" class="form-control" placeholder="Enter Courses">
+        <div>
+            <label for="EnterCoursesName" class = "form-label">Enter Courses</label>
+            <input id="EnterCoursesName" type="text" class="form-control" placeholder="Enter Courses">
+        </div>
+        <div>
+            <label for="EnterLocation" class = "form-label">Enter Course Location</label>
+            <input id="EnterCourseLocation" type="text" class="form-control" placeholder="Enter Course Location">   
+        </div>
+        <div>
+            <label for="EnterTime" class = "form-label">Enter Course Time</label>
+            <input id="EnterCourseTime" type="text" class="form-control" placeholder="Enter Course Time">
+        </div>
+        <div>
+            <h2> Choose Which Days Your Course Meets</h2>
+            <form id="CourseDays">
+                <input type="checkbox" id="Monday" name="Monday" value="Monday">
+                <label for="Monday">Monday</label><br>
+                <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">
+                <label for="Tuesday">Tuesday</label><br>
+                <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">
+                <label for="Wednesday">Wednesday</label><br>
+                <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">
+                <label for="Thursday">Thursday</label><br>
+                <input type="checkbox" id="Friday" name="Friday" value="Friday">
+                <label for="Friday">Friday</label><br>
+                <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">
+                <label for="Saturday">Saturday</label><br>
+                <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">
+                <label for="Sunday">Sunday</label><br>
+            </form>
+        </div>
+        <div>
+        <button type="Submit" id="CourseSubmission">Submit</button>
+        </div>
     </div>
-</div>
+</body>
+</html>
