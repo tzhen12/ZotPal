@@ -9,6 +9,11 @@ function addCourse() {
         days.push(checkbox.value);
     });
 
+    console.log(courseName);
+    console.log(location);
+    console.log(time);
+    console.log(days);
+
     var table = document.getElementById("courseTable");
     var newRow = table.insertRow();
 
