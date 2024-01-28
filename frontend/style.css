@@ -36,3 +36,10 @@ th, td{
 form input[type="text"]{
     margin: 10px 0;
 }
+
+top-right-button{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    
+}
