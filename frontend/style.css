@@ -41,5 +41,12 @@ top-right-button{
     position: fixed;
     top: 10px;
     right: 10px;
-    
+}
+
+/* put logout button in the top right */
+.logout{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40%;
 }
